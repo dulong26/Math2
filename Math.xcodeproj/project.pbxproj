@@ -12,6 +12,11 @@
 		ABB710EF1F8F47510002EFC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB710ED1F8F47510002EFC6 /* Main.storyboard */; };
 		ABB710F11F8F47510002EFC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB710F01F8F47510002EFC6 /* Assets.xcassets */; };
 		ABB710F41F8F47510002EFC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB710F21F8F47510002EFC6 /* LaunchScreen.storyboard */; };
+		ABB711031F8F53660002EFC6 /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABB710FE1F8F53660002EFC6 /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg */; };
+		ABB711041F8F53660002EFC6 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = ABB710FF1F8F53660002EFC6 /* board.png */; };
+		ABB711051F8F53660002EFC6 /* note2.png in Resources */ = {isa = PBXBuildFile; fileRef = ABB711001F8F53660002EFC6 /* note2.png */; };
+		ABB711061F8F53660002EFC6 /* note3.png in Resources */ = {isa = PBXBuildFile; fileRef = ABB711011F8F53660002EFC6 /* note3.png */; };
+		ABB711071F8F53660002EFC6 /* note1.png in Resources */ = {isa = PBXBuildFile; fileRef = ABB711021F8F53660002EFC6 /* note1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		ABB710F01F8F47510002EFC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABB710F31F8F47510002EFC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABB710F51F8F47510002EFC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABB710FE1F8F53660002EFC6 /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Cartoon-Springs-PPT-Backgrounds-1024x768.jpg"; path = "../../../../Tung's projects/Math/Math/Cartoon-Springs-PPT-Backgrounds-1024x768.jpg"; sourceTree = "<group>"; };
+		ABB710FF1F8F53660002EFC6 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = board.png; path = "../../../../Tung's projects/Math/Math/board.png"; sourceTree = "<group>"; };
+		ABB711001F8F53660002EFC6 /* note2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = note2.png; path = "../../../../Tung's projects/Math/Math/note2.png"; sourceTree = "<group>"; };
+		ABB711011F8F53660002EFC6 /* note3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = note3.png; path = "../../../../Tung's projects/Math/Math/note3.png"; sourceTree = "<group>"; };
+		ABB711021F8F53660002EFC6 /* note1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = note1.png; path = "../../../../Tung's projects/Math/Math/note1.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 		ABB710E81F8F47510002EFC6 /* Math */ = {
 			isa = PBXGroup;
 			children = (
+				ABB710FB1F8F52F50002EFC6 /* Resources */,
 				ABB710E91F8F47510002EFC6 /* AppDelegate.swift */,
 				ABB710EB1F8F47510002EFC6 /* ViewController.swift */,
 				ABB710ED1F8F47510002EFC6 /* Main.storyboard */,
@@ -62,6 +73,18 @@
 				ABB710F51F8F47510002EFC6 /* Info.plist */,
 			);
 			path = Math;
+			sourceTree = "<group>";
+		};
+		ABB710FB1F8F52F50002EFC6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ABB710FF1F8F53660002EFC6 /* board.png */,
+				ABB710FE1F8F53660002EFC6 /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg */,
+				ABB711021F8F53660002EFC6 /* note1.png */,
+				ABB711001F8F53660002EFC6 /* note2.png */,
+				ABB711011F8F53660002EFC6 /* note3.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +146,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABB711061F8F53660002EFC6 /* note3.png in Resources */,
+				ABB711051F8F53660002EFC6 /* note2.png in Resources */,
 				ABB710F41F8F47510002EFC6 /* LaunchScreen.storyboard in Resources */,
+				ABB711071F8F53660002EFC6 /* note1.png in Resources */,
 				ABB710F11F8F47510002EFC6 /* Assets.xcassets in Resources */,
+				ABB711031F8F53660002EFC6 /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg in Resources */,
+				ABB711041F8F53660002EFC6 /* board.png in Resources */,
 				ABB710EF1F8F47510002EFC6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
